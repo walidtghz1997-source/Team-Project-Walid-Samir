@@ -66,3 +66,77 @@
 .DivDrop:hover{
     color: rgb(123, 177, 0);
 }
+/* main  */
+/* !section1 */
+.FirstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    margin-top: 34px;
+}
+.FirstMotherFirstSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(92, 92, 92);
+    width: 100%;
+}
+.TitleDiv{
+    padding-right: 40px;
+}
+.PrgrphTitle{
+    color: gray;
+}
+.TitleMargin{
+    margin: 10px 0px 20px 0px;
+}
+.TitleHero{
+    color: white;
+    font-size: 45px;
+}
+.PrgrphUnderTitle{
+    color: gray;
+}
+.CreativeImg{
+    width: 450px;
+    height: 470px;
+    margin-right: 40px;
+}
+.ButtonsDivSec1{
+    margin-top: 30px;
+}
+.LunchButton{
+    background-color: rgb(123, 177, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+}
+.ExploreButton{
+    border: none;
+    color: white;
+    background-color: rgb(14, 16, 34);
+    padding: 10px;
+    cursor: pointer;
+}
+/* SecondMotherFirstSection */
+.SecondMotherFirstSection{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    width: 85vw;
+    gap: 240px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.CampaignNumber{
+    color: rgb(123, 177, 0);
+    font-size: 40px;
+}
+.PrgrphCampaign{
+    color: gainsboro;
+}
