@@ -140,3 +140,38 @@
 .PrgrphCampaign{
     color: gainsboro;
 }
+/* !Portfolio */
+/* !section4 */
+.FourthSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    margin-top: 34px;
+}
+.PortfolioTitle{
+    color: white;
+    text-align: center;
+    background-color: red;
+}
+.line{
+    width: 130px;
+    height: 1px;
+    background-color: rgb(94, 94, 94);
+    border-radius: 50px;
+    position: relative;
+    margin: 0 auto 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(123, 177, 0);
+    top: -0.4px;
+}
