@@ -153,13 +153,11 @@
 .PortfolioTitle{
     color: white;
     text-align: center;
-    background-color: red;
 }
 .line{
     width: 130px;
     height: 1px;
     background-color: rgb(94, 94, 94);
-    border-radius: 50px;
     position: relative;
     margin: 0 auto 20px;
     border-radius: 50px;
@@ -175,3 +173,99 @@
     background-color: rgb(123, 177, 0);
     top: -0.4px;
 }
+.DivButtonsAndPrgrphSecFour{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+}
+.PrgrphButtonsSecFour{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+.DivButtonsSecFour{
+    display: flex;
+    gap: 10px;
+}
+.Buttons1SecFour{
+    background-color: rgb(123, 177, 0);
+    color: gainsboro;
+    border: none;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50px;
+}
+.ButtonsSecFour{
+    background-color: rgb(14, 16, 34);
+    color: gainsboro;
+    border: none;
+    border: 1px solid rgb(84, 84, 84);
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+/* <!-- FirstPicsDivSec4 --> */
+.FirstPicsDivSec4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.Card1-4{
+    width: 48%;
+    background-color: rgb(14, 16, 34);
+    border-bottom: 1px solid rgb(87, 87, 87);
+    padding-bottom: 30px;
+}
+.ImageSec4{
+    width: 100%;
+    height: 50%;
+}
+.PrgrphTitle{
+    font-weight: bold;
+}
+.DivReviewSec4{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: gray;
+    gap: 5px;
+    font-size: 14px;
+}
+.IconsSec4{
+    color: rgb(252, 194, 36);
+    font-size: 12px;
+}
+.TitleCardSec4{
+    color: white;
+    margin: 6px 0px;
+}
+.PrgrphCadSec4{
+    color: gray;
+}
+.DivButtonsCardSec4{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+}
+.ButtonsSec4{
+    color: white;
+    background-color: rgb(24, 27, 44);
+    border: none;
+    border: 1px solid rgb(66, 66, 66);
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.LinkSec4{
+    color: white;
+    text-decoration: none;
+}
+/* <!-- SecondPicsDivSec4 --> */
+ /* <!-- ThirdPicsDivSec4 --> */
