@@ -145,7 +145,315 @@
 }
 /* !About  */
  /* !section2 */
+/*! this is section two */
+.section-about {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
 
+/* ?this is a box of the section two */
+.box-section-about-1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 40px;
+}
+.box-Build-1-1 {
+    width: 60%;
+}
+.box-about-one {
+    width: 100%;
+}
+
+.box-1-1-1 {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+    width: 100%;
+}
+
+.box-1-1-2 {
+    border-bottom: 1px dashed rgb(161, 154, 154);
+    border-top: 1px dashed rgb(196, 176, 176);
+    width: 95%;
+}
+
+.icoun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(24, 30, 31);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.box-1-1-1:hover {
+    .icoun {
+        background-color: rgb(123, 177, 0);
+        /* cursor: pointer; */
+    }
+
+}
+
+.box-about-1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: rgba(17, 207, 42, 0.3) 60px -40px 270px;
+}
+
+/* ?this is a box of three circle  */
+.box-circle {
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    background-color: rgb(32, 35, 48);
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+    gap: 10px;
+}
+
+.circle-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(254, 95, 87);
+    color: rgb(254, 95, 87);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 187, 46);
+    color: rgb(253, 187, 46);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 200, 64);
+    color: rgb(40, 200, 64);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/* ?this is a box image */
+.box-image {
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+
+.-image {
+    width: 100%;
+    height: 300px;
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+/* ?this is a box signal */
+.box-signal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(24, 27, 40);
+    border: 1px solid rgb(94, 101, 132);
+    padding: 20px;
+    border-radius: 10px;
+    top: 20px;
+    left: -60px;
+
+}
+
+.singal-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(122, 173, 32);
+    padding: 10px;
+    .fof {
+        font-size: 20px;
+    }
+}
+
+.signal-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* ?this is style box avatar */
+.box-cards-users {
+    position: relative;
+    background-color: rgb(24, 27, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    border-radius: 20px;
+    border: 1px solid rgb(94, 101, 132);
+    width: 200px;
+    bottom: 130px;
+    left: 240px;
+}
+
+.avatar-users {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    bottom: 53px;
+    width: 65%;
+}
+
+.avatar-user-image {
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    margin-left: -20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgb(94, 101, 132);
+}
+
+.users {
+    position: absolute;
+    bottom: 20px;
+    color: rgb(99, 104, 120);
+}
+
+.box-title-about {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border-bottom: 1px solid rgb(59, 61, 73);
+    text-decoration: underline 2px solid rgb(123, 177, 0);
+    text-underline-offset: 16px;
+    margin-bottom: 20px;
+
+}
+
+.Box-Build {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(25, 32, 31);
+    color: rgb(123, 177, 11);
+    margin-bottom: 10px;
+}
+
+.stars {
+    margin-right: 5px;
+}
+
+/*? this is box h1 and paragraphe nemo */
+.box-ship {
+}
+
+.title-ship {
+    font-size: 50px;
+}
+
+.para-ship {
+    color: rgb(105, 136, 164);
+    margin-top: 10px;
+
+}
+
+/* todo this box two is a derection row */
+.box-section-about-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+
+}
+
+.box-trial {
+    background-color: rgb(120, 168, 46);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 15px;
+    gap: 20px;
+}
+
+.box-trial:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.fo {
+    color: rgb(123, 177, 0);
+    font-size: 30px;
+}
+
+.box-watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-watch:hover {
+    cursor: pointer;
+    color: rgb(123, 177, 0);
+
+}
+
+.box-section-about-5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    background-color: rgb(31, 37, 38);
+    border-radius: 20px;
+    border: 1px solid rgb(41, 53, 32);
+    padding: 30px;
+}
+
+.box-about-1-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.num {
+    color: rgb(119, 166, 62);
+}
  /* !Services  */
  /* !section3  */
 
