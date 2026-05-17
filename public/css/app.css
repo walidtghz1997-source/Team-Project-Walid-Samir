@@ -261,11 +261,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
 .box-Build-1-1 {
-    width: 60%;
+    width: 50%;
 }
 
 .box-about-one {
@@ -282,7 +282,7 @@
 .box-1-1-2 {
     border-bottom: 1px dashed rgb(161, 154, 154);
     border-top: 1px dashed rgb(196, 176, 176);
-    width: 95%;
+    width: 100%;
 }
 
 .icoun {
@@ -292,8 +292,8 @@
     border: none;
     border-radius: 10px;
     background-color: rgb(24, 30, 31);
-    padding: 10px;
-    margin-right: 20px;
+    padding: 5px;
+    margin-right: 10px;
 }
 
 .box-1-1-1:hover {
@@ -307,14 +307,18 @@
 .box-about-1-2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    width: 48%;
-    height: 200px;
+    width: 45%;
+    background-color: #1977f3;
+    /* height: 200px; */
     border: none;
     border-radius: 20px;
     margin-top: 100px;
-    box-shadow: rgba(17, 207, 42, 0.3) 60px -40px 270px;
+    /* padding: 20px; */
+    box-shadow: rgba(17, 207, 42, 0.3) 50px -30px 10px;
+    box-shadow:rgba(58, 60, 138, 0.3) -50px 30px 100px;
+
 }
 
 /* ?this is a box of three circle  */
@@ -388,7 +392,7 @@
     padding: 20px;
     border-radius: 10px;
     top: 15px;
-    left: -50px;
+    left: -45px;
 
 }
 
@@ -418,12 +422,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 55px 10px;
+    /* padding: 50px/'' 10px ; */
     border-radius: 20px;
     border: 1px solid rgb(94, 101, 132);
     width: 200px;
+    height: 110px;
     bottom: 115px;
-    left: 280px;
+    left: 350px;
 }
 
 .avatar-users {
@@ -433,7 +438,7 @@
     align-items: center;
     gap: 10px;
     bottom: 53px;
-    width: 65%;
+    width: 30%;
 }
 
 .avatar-user-image {
@@ -497,7 +502,7 @@
 /*? this is box h1 and paragraphe nemo */
 
 .title-ship {
-    font-size: 50px;
+    font-size: 46px;
 }
 
 .para-ship {
@@ -506,12 +511,16 @@
 
 }
 
+.paragraphe-ship {
+    color: rgb(132, 134, 138);
+}
+
 /* todo this box two is a derection row */
 .box-section-about-2 {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 30px 0px;
     gap: 30px;
 
 }
@@ -522,9 +531,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    padding: 15px;
-    gap: 20px;
+    width: 170px;
+    padding: 10px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.box-trial:hover {
+    /* padding: 15px; */
+    /* margin-left: 10px; */
+    transform: translateY(-10px);
 }
 
 .box-trial:hover {
@@ -745,6 +761,12 @@
     margin-top: 35px;
     border-radius: 30px;
     background-color: rgb(139, 185, 35);
+    transition: 0.5s;
+
+}
+
+.services-start:hover {
+    transform: translateY(-10px);
 }
 
 .link-start {
@@ -961,76 +983,99 @@
     justify-content: space-between;
     align-items: center;
 
+}
 
-    .box-why-us-one-1-1 {
-        width: 50%;
+.box-why-us-one-1-1 {
+    width: 50%;
 
-        .box-apart-form {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            font-size: 38px;
-            color: white;
-
-            .para {
-                font-size: 17px;
-                color: rgb(138, 154, 180);
-            }
-        }
-    }
-
-    .box-why-us-one-1-2 {
-        width: 50%;
+    .box-apart-form {
         display: flex;
-        align-items: center;
-        justify-content: end;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 38px;
+        color: white;
 
-        .box-why-us-one-1-2-1 {
-            width: 75%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-
-            .buttom-launch {
-                background-color: rgb(139, 185, 35);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 40px;
-                padding: 20px;
-                text-decoration: none;
-                color: white;
-                font-size: 20px;
-
-            }
-
-            .buttom-launch:hover {
-                background-color: rgb(231, 247, 9);
-                color: rgb(206, 194, 194);
-            }
-
-            .explore {
-                gap: 10px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-decoration: none;
-                color: white;
-                font-size: 20px;
-
-                .fof {
-                    font-size: 15px;
-                }
-            }
-
-            .explore:hover {
-                border-bottom: 2px solid white;
-
-            }
-
+        .para {
+            font-size: 17px;
+            color: rgb(138, 154, 180);
         }
     }
 }
+
+.box-why-us-one-1-2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.box-why-us-one-1-2-1 {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttom-launch {
+    background-color: rgb(139, 185, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+
+.buttom-launch:hover {
+    background-color: rgb(231, 247, 9);
+    color: rgb(206, 194, 194);
+    transform: translateY(-10px);
+}
+
+.explore {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    transition: 0.3 ease;
+}
+
+.explore::after{
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0;
+height: 2px;
+background-color: #1cd825;
+transition: width 0.5s ease;
+}
+.explore:hover::after{
+    width: 200px;
+}
+.explore i{
+    display: inline-block;
+transition: 0.5s ease;
+}
+.explore:hover .fof{
+    transform: translateX(10px);
+}
+.fof {
+    font-size: 15px;
+}
+
 
 .box-why-us-two {
     display: flex;
@@ -1575,7 +1620,7 @@
     padding: 15px 30px 15px 10px;
     outline: none;
     background-color: rgb(14, 16, 34);
-
+    color: white;
 }
 
 .input-name:hover {
@@ -1591,7 +1636,7 @@
     padding: 15px 10px 15px 10px;
     background-color: rgb(14, 16, 34);
     outline: none;
-
+    color: white;
 }
 
 .input-subject:hover {
@@ -1612,6 +1657,7 @@
     border-radius: 5px;
     padding: 5px 10px 100px;
     background-color: rgb(14, 16, 34);
+    color: white;
 }
 
 .input-textarea:hover {
@@ -1637,13 +1683,15 @@
     border-radius: 40px;
     color: white;
     font-size: large;
+    transition: 0.5s;
 }
 
 .submit-btn:hover {
     background-color: chartreuse;
     cursor: pointer;
-    color: orange;
+    color: rgb(56, 104, 20);
     gap: 20px;
+    transform: translateY(-10px);
 }
 
 
